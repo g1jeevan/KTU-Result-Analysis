@@ -1,0 +1,19 @@
+def bubblesortgrade(roll,rlmca201,rlmca203,rlmca205,rlmca207,rlmca209,rlmca231,rlmca233):
+
+ n = len(arr)
+ 
+ # Traverse through all array elements
+ for i in range(n):
+ 
+  # Last i elements are already in place
+  for j in range(0, n-i-1):
+ 
+   if roll[j] > roll[j+1] :
+   roll[j], roll[j+1] = roll[j+1], roll[j]
+   rlmca201[j],rlmca201[j+1] = rlmca201[j+1], rlmca201[j]
+   rlmca203[j],rlmca203[j+1] = rlmca203[j+1], rlmca203[j]   
+   rlmca205[j],rlmca205[j+1] = rlmca205[j+1], rlmca205[j]
+   rlmca207[j],rlmca207[j+1] = rlmca207[j+1], rlmca207[j]
+   rlmca209[j],rlmca209[j+1] = rlmca209[j+1], rlmca208[j]
+   rlmca231[j],rlmca231[j+1] = rlmca231[j+1], rlmca231[j]
+   rlmca233[j],rlmca233[j+1] = rlmca233[j+1], rlmca233[j]
